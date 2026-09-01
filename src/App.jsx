@@ -490,7 +490,7 @@ export default function App() {
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 14 }}>
               <Button href="#contact">Get a free assessment <span>{ICONS.arrow()}</span></Button>
-              <Button href="tel:+256700000000" variant="outline">{ICONS.phone()} Call us now</Button>
+              <Button href="tel:+256775868791" variant="outline">{ICONS.phone()} Call us now</Button>
             </div>
           </Reveal>
           <Reveal delay={150}>
@@ -606,9 +606,9 @@ export default function App() {
             </p>
             <div className="flex flex-col gap-5">
               {[
-                { icon: "phone", label: "Phone", value: "+256 700 000 000" },
-                { icon: "mail", label: "Email", value: "hello@swisshomecare.ug" },
-                { icon: "pin", label: "Headquarters", value: "Plot 12, Nakasero, Kampala, Uganda" },
+                { icon: "phone", label: "Phone", value: "+256 775 868 791" },
+                { icon: "mail", label: "Email", value: "hello@swisshome.care" },
+                { icon: "pin", label: "Headquarters", value: "Bunga, Kampala, Uganda" },
               ].map((c) => (
                 <div key={c.label} style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
                   <div style={{ width: 38, height: 38, borderRadius: 10, background: C.greenLt, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
@@ -621,7 +621,6 @@ export default function App() {
                 </div>
               ))}
             </div>
-            <p style={{ fontSize: 12.5, opacity: 0.5, marginTop: 28 }}>Placeholder contact details for now. Swap in the real number, email and address when ready.</p>
           </Reveal>
           <Reveal delay={120}>
             {sent ? (
@@ -707,9 +706,9 @@ export default function App() {
           <div>
             <p style={{ fontSize: 12.5, letterSpacing: 1.5, opacity: 0.5, marginBottom: 16 }}>CONTACT</p>
             <div className="flex flex-col gap-2.5" style={{ fontSize: 14, opacity: 0.75 }}>
-              <span>+256 700 000 000</span>
-              <span>hello@swisshomecare.ug</span>
-              <span>Plot 12, Nakasero, Kampala</span>
+              <span>+256 775 868 791</span>
+              <span>hello@swisshome.care</span>
+              <span>Bunga, Kampala, Uganda</span>
             </div>
           </div>
         </div>
